@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>element_centering</title>
+	<style type="text/css">
+	    .div1{
+	    	position:relative;
+	    	width: 200px;
+	    	height:200px;
+	    	background: yellow;
+	    }
+		.div2{
+			position: absolute;
+			left: 0;top: 0;right: 0;bottom: 0;
+			margin: auto;
+			width: 100px;
+			height: 100px;
+			background: red;
+		}
+
+		.table_p1 {
+    display: table;
+background: yellow;
+    width: 200px; height: 200px;
+}
+.table_p1 .inner {
+    display: table-cell;
+background: blue;
+    vertical-align: middle;
+    text-align: center;
+}
+.table_p1 .table_c1 {
+    display: inline-block;
+	background: red;
+    width: 100px; height: 100px;
+}
+	</style>
+</head>
+
+<body>
+<div class="div1">
+	<div class="div2"></div>
+</div>	
+
+<div class="table_p1">
+    <div class="inner">
+        <div class="table_c1"></div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>clear_float</title>
+</head>
+<style type="text/css">
+	.div1{
+		background-color: red;
+		/* position: static; */
+	}
+	.div2{
+		background: blue;
+		width: 100px;
+		height:100px;
+		float: left;
+/* 		position : absolute;
+	 top:200px;
+		 */		
+
+	}
+	.div3{
+		background: green;
+		width: 100px;
+		height:100px;
+		float: left;
+		/* left:500px; */
+	}
+	.empty{
+		clear:both;
+	}
+	.text1{
+
+	}
+	.text2{
+
+	}
+	.div4{
+		background: yellow;
+		width: 100px;
+		height:100px;
+		/* float: left; */
+		/* left:500px; */
+	}
+
+</style>
+<body>
+	<div class="div1">
+		<div class="div2"></div>
+		<div class="div3"></div>
+		<input type="text" name="myText" class="text1">
+		<input type="text" name="myText" class="text2">
+		<div class="div4"></div>
+
+		<div class="empty"></div>
+	</div>
+	
+</body>
+</html>
