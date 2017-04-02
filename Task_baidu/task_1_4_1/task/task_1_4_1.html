@@ -5,22 +5,21 @@
 	<title>task_position_center</title>
 	<style type="text/css">
 		
-		.innerDiv{
+		.aDiv{
 			position: absolute;
 			width: 400px;
 			height: 200px;
 			background: #ccc;
 			left:50%;
 			top:50%;
+			overflow: hidden;
 			transform: translate(-50%,-50%);
 			-ms-transform:translate(-50%,-50%);
 			-moz-transform:translate(-50%,-50%);
 			-webkit-transform:translate(-50%,-50%);
-			-o-transform:translate(-50%,-50%);
-			overflow: hidden;
-			
+			-o-transform:translate(-50%,-50%);			
 		}
-		.innerDiv:before{
+		.aDiv:before{
 			content:"";
 			display:block;
 			position: absolute;
@@ -31,7 +30,7 @@
 			border-radius: 50px;
 			background: #fc0;
 		}
-		.innerDiv:after{
+		.aDiv:after{
 			content:"";
 			display:block;
 			position: absolute;
@@ -47,7 +46,7 @@
 </head>
 <body>
 	
-		<div class="innerDiv">
+		<div class="aDiv">
 			
 		
 	</div>
